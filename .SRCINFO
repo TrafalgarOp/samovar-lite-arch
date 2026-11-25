@@ -1,0 +1,18 @@
+pkgbase = samovar-lite
+	pkgdesc = PotPlayer-style media player for Linux, built on libmpv and Qt
+	pkgver = 1.0.0
+	pkgrel = 2
+	url = https://github.com/AliMilani/samovar-lite
+	arch = any
+	license = GPL-3.0-or-later
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-hatchling
+	depends = python
+	depends = pyside6
+	depends = python-mpv
+	depends = mpv
+	source = samovar-lite-1.0.0.tar.gz::https://github.com/AliMilani/samovar-lite/archive/refs/tags/v1.0.0.tar.gz
+	sha256sums = f687a1063b62eec017b6a2411ddef1466628c2963ecb1ed1eb52970e5771b2ea
+
+pkgname = samovar-lite
